@@ -20,7 +20,6 @@ class Turn {
     }
   }
   giveFeedback() {
-    console.log(this.isCorrect)
     if (this.isCorrect === true) {
       return "correct!"
     } else if (this.isCorrect === false) {
