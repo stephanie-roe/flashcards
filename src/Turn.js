@@ -5,28 +5,28 @@ class Turn {
     this.isCorrect;
   }
   returnGuess() {
-    return this.guess
+    return this.guess;
   }
   returnCard() {
-    return this.currentCard
+    return this.currentCard;
   }
   evaluateGuess() {
     if (this.guess === this.currentCard.correctAnswer) {
-      this.isCorrect = true
-      return this.isCorrect
+      this.isCorrect = true;
+      return this.isCorrect;
     } else {
-      this.isCorrect = false
-      return this.isCorrect
+      this.isCorrect = false;
+      return this.isCorrect;
     }
   }
   giveFeedback() {
     if (this.isCorrect === true) {
-      return "correct!"
+      return "correct!";
     } else if (this.isCorrect === false) {
-      return "incorrect!"
+      return "incorrect!";
     }
   }
-}
+};
 
 
 module.exports = Turn;

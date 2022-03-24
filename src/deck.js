@@ -3,8 +3,8 @@ class Deck {
     this.cards = cards;
   }
   countCards() {
-    return this.cards.length
+    return this.cards.length;
   }
-}
+};
 
-module.exports = Deck
+module.exports = Deck;
