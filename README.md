@@ -20,5 +20,12 @@ To interact with the flash cards in the command line, run `node index.js`
 ## Technologies
 **JavaScript | Mocha | Chai**
 
+## Game Play
+When interacting with the game in the command line:
+Key `up` or `down` to navigate between answer choices.
+Once, you've selected your guess, hit `enter` or `return` to select your answer and move on to the next question.
+Repeat these steps for the remainder of the deck.
+Once you have reached the end of the deck, you'll see a message with your score!
+
 ## See the Flash Cards In Action
-[INSERT FUNCTIONALITY GIF HERE]
+![Functionality GIF](https://media.giphy.com/media/VCSOFIBbzX38o8c0UN/giphy.gif)
